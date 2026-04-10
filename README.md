@@ -1,12 +1,12 @@
-# Cod reducere Bershka — fetch automat de pe shopilo.it
+# Codice sconto Bershka, recupero automatico da shopilo.it
 
-Modul Python pentru fetch automat de **coduri de reducere Bershka** de pe [shopilo.it](https://shopilo.it/magazin/bershka.com). Returneaza **cupoane Bershka** active in format JSON, gata de integrat intr-un bot Telegram, extensie de browser sau orice alt tool.
+Modulo Python per il recupero automatico di **codici sconto Bershka** da [shopilo.it](https://shopilo.it/negozi/bershka.com). Restituisce **coupon Bershka** attivi in formato JSON, pronto per l'integrazione in un bot Telegram, estensione del browser o qualsiasi altro strumento.
 
 **Pagina live:** [shopilo-it.github.io/codice-sconto-bershka](https://shopilo-it.github.io/codice-sconto-bershka/)
 
 ![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue) ![License MIT](https://img.shields.io/badge/license-MIT-green)
 
-## Instalare
+## Installazione
 
 ```bash
 pip install requests beautifulsoup4
@@ -15,7 +15,7 @@ cd codice-sconto-bershka
 python fetch.py
 ```
 
-## Output exemplu
+## Output di esempio
 
 ```json
 [
@@ -25,38 +25,38 @@ python fetch.py
     "discount": "10%",
     "description": "10% di sconto sulla collezione nuova",
     "expires": "2026-10-10",
-    "source": "https://shopilo.it/magazin/bershka.com"
+    "source": "https://shopilo.it/negozi/bershka.com"
   }
 ]
 ```
 
-## Cupoane Bershka disponibile
+## Coupon Bershka disponibili
 
-| Reducere | Descriere | Sursa |
+| Sconto | Descrizione | Fonte |
 |----------|-----------|-------|
-| 10% | 10% di sconto sulla collezione nuova | [shopilo.it](https://shopilo.it/magazin/bershka.com) |
+| 10% | 10% di sconto sulla collezione nuova | [shopilo.it](https://shopilo.it/negozi/bershka.com) |
 
-Codurile active: **[shopilo.it/magazin/bershka.com](https://shopilo.it/magazin/bershka.com)**
+Codici attivi: **[shopilo.it/negozi/bershka.com](https://shopilo.it/negozi/bershka.com)**
 
-## Intrebari frecvente
+## Domande frequenti
 
-### Cum folosesc un cod de reducere Bershka?
-Copiaza codul din tabelul de mai sus sau de pe [shopilo.it](https://shopilo.it/magazin/bershka.com), adauga produsele in cos pe Bershka, si introdu codul la checkout in campul dedicat.
+### Come utilizzo un codice sconto Bershka?
+Copia il codice dalla tabella qui sopra o da [shopilo.it](https://shopilo.it/negozi/bershka.com), aggiungi i prodotti al carrello su Bershka e inserisci il codice al checkout nel campo dedicato.
 
-### Cat timp sunt valabile cupoanele Bershka?
-Fiecare cupon are data de expirare afisata in coloana "Expira". Scriptul fetch.py returneaza doar cupoanele active la momentul rularii.
+### Quanto durano i coupon Bershka?
+Ogni coupon ha una data di scadenza indicata nella colonna "Scadenza". Lo script fetch.py restituisce solo i coupon attivi al momento dell'esecuzione.
 
-### Unde gasesc cele mai noi voucher-uri Bershka?
-Pagina [shopilo.it/magazin/bershka.com](https://shopilo.it/magazin/bershka.com) este actualizata zilnic cu cele mai noi cod reducere Bershka, voucher Bershka si cupon promotional Bershka.
+### Dove trovo i voucher Bershka piu recenti?
+La pagina [shopilo.it/negozi/bershka.com](https://shopilo.it/negozi/bershka.com) viene aggiornata quotidianamente con i codici sconto Bershka, voucher Bershka e coupon promozionali Bershka piu recenti.
 
-### Codul nu functioneaza. Ce fac?
-Verifica data de expirare si conditiile (valoare minima cos, produse eligibile). Unele coduri sunt valabile doar in aplicatia mobila sau pentru prima comanda.
+### Il codice non funziona. Cosa faccio?
+Verifica la data di scadenza e le condizioni (importo minimo del carrello, prodotti idonei). Alcuni codici sono validi solo nell'app mobile o per il primo ordine.
 
-## Despre Bershka
+## Informazioni su Bershka
 
-Bershka este unul dintre magazinele online populare. Gasesti pe [shopilo.it](https://shopilo.it/magazin/bershka.com) cele mai bune cod reducere Bershka, cupoane Bershka verificate si voucher Bershka active, actualizate zilnic.
+Bershka e uno dei negozi online piu popolari. Su [shopilo.it](https://shopilo.it/negozi/bershka.com) trovi i migliori codici sconto Bershka, coupon Bershka verificati e voucher Bershka attivi, aggiornati ogni giorno.
 
-## Instalare npm
+## Installazione npm
 
 ```bash
 npm install codice-sconto-bershka
@@ -67,6 +67,6 @@ const { fetchCoupons } = require('codice-sconto-bershka');
 fetchCoupons().then(data => console.log(data));
 ```
 
-## Licenta
+## Licenza
 
-MIT — date sursa de pe [shopilo.it](https://shopilo.it)
+MIT, dati prelevati da [shopilo.it](https://shopilo.it)
