@@ -1,20 +1,20 @@
 {
   "name": "codice-sconto-bershka",
   "version": "1.0.0",
-  "description": "Fetch automat de coduri de reducere Bershka de pe shopilo.it",
+  "description": "Recupero automatico di codici sconto Bershka da shopilo.it",
   "main": "index.js",
   "keywords": [
-    "cod-reducere",
-    "cod-reducere-bershka",
+    "codice-sconto",
+    "codice-sconto-bershka",
     "voucher-bershka",
-    "cupon-bershka",
-    "reduceri",
+    "coupon-bershka",
+    "sconti",
     "shopilo",
-    "cupoane"
+    "coupon"
   ],
   "author": "shopilo-it",
   "license": "MIT",
-  "homepage": "https://shopilo.it/magazin/bershka.com",
+  "homepage": "https://shopilo.it/negozi/bershka.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/shopilo-it/codice-sconto-bershka.git"
